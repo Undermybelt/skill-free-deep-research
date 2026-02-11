@@ -1,0 +1,35 @@
+{
+  "name": "free-deep-research-skill",
+  "version": "1.0.0",
+  "description": "AI Agent research automation skill - orchestrate multi-component research workflows",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node examples/basic-usage.js",
+    "build": "echo 'No build step required'",
+    "release": " standard-version && git push --follow-tags"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "research",
+    "automation",
+    "agent-orchestration",
+    "ai"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/skill-free-deep-research.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src",
+    "SKILL.md",
+    "README.md",
+    "examples"
+  ]
+}
